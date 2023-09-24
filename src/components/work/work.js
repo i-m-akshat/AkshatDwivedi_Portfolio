@@ -8,7 +8,7 @@ export default function Work(){
             id:1,
             title:"Online Library Management",
             img:"Assets/OnlineLibraryManagement.png",
-            address:"http://ayodhyadarshnam.in/",
+            address:"https://github.com/Akshat4756/OnlineLibraryManagement",
             description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
         },
         {
@@ -22,7 +22,7 @@ export default function Work(){
             id:3,
             title:"Project MCQ",
             img:"Assets/ProjectMCQFullPage.jpeg",
-            address:"http://ayodhyadarshnam.in/",
+            address:"https://github.com/Akshat4756/Project_MCQ",
             description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
         },
         // {

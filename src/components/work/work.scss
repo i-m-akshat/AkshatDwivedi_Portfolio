@@ -1,0 +1,145 @@
+@import '../../Global.scss';
+
+.work{
+    background-color:$mainColor;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: relative;
+    @include mobile{
+        position:unset ;
+    }
+    .arrow{
+        height: 50px;
+        position: absolute;
+        cursor: pointer ;
+        @include mobile{
+            display: none;
+    
+        }
+        &.left{
+            left:100px;
+            transform: rotateY(180deg);
+        }
+        &.right{
+            right: 100px;
+        }
+    }   
+    .slider{
+        height: 380px;
+        display: flex;
+        position: absolute;
+        left: 0;
+        transition: all 1s ease-out;
+        @include mobile{
+            height: 100vh;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .container{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .item{
+            width: 700px;
+            height: 100%;
+            background-color: white;
+            border-radius: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            @include mobile{
+                width: 80%;
+                height: 150px;
+                margin: 15px 0;
+                overflow: hidden;
+                scroll-behavior: none;
+                
+        
+            }
+            .left{
+                flex:4;
+                height: 80%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .leftContainer{
+                    width: 90%;
+                    height: 70%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    .imgContainer{
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        background-color: gray;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        @include mobile{
+                            width: 50px;
+                            height:50px;
+                    
+                        }
+                        img{
+                            width: 50px;
+                            height: 50px;
+                            @include mobile{
+                                width: 50px;
+                                height: 50px;
+                               
+                        
+                            }
+                        }
+                    }
+                    h2{
+                        font-size: 20px;
+                        @include mobile{
+                           font-size: 10px;
+                    
+                        }
+
+                    }
+                    p{
+                        font-size: 13px;
+                        @include mobile{
+                            display: none;
+                    
+                        }
+                    }
+                    a{
+                        font-size: 12px;
+                        font-weight: 600;
+                        text-decoration:underline;
+                        cursor:pointer;
+                        @include mobile{
+                            font-size: 8px;
+                    
+                        }
+                    }
+                }
+            }
+            .right{
+                flex:8;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+                img{
+                    width: 400px;
+                    transform: rotate(-10deg);
+                    @include mobile{
+                        width: 100%;
+                    }
+                }
+                
+               
+            }
+        }
+    }
+}

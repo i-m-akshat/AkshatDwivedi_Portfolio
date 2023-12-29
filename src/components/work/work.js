@@ -8,23 +8,30 @@ export default function Work(){
             id:1,
             title:"Online Library Management",
             img:"Assets/OnlineLibraryManagement.png",
-            address:"https://github.com/Akshat4756/OnlineLibraryManagement",
-            description:"This is a web application which i have created using Asp.net , Ado.net and Sql server. This application was developed with the purpose of providing an allrounder application to help a particular library to manage all their activities in a completely new way."
+            address:"https://github.com/Akshat4756/Online_Library_Management",
+            description:"This is a web application which i have created using Asp.net , Ado.net and Sql server."
         },
         {
             id:2,
             title:"Ayodhya Darshnam",
             img:"Assets/AyodhyaDarshnamFullpage.jpeg",
             address:"http://ayodhyadarshnam.in/",
-            description:"It is a web application which i have develeoped using asp.net , Sql server, C#, ado.net and bootstrap5. This application was developed with the intent of promoting tourism to my own city Ayodhya. I am currently working in order to make it more better and optimize. It mainly have seperate logins of user and Admins and a seperate dashboard for admin to add/update the new spots, images or any kind of events"
+            description:"It is a web application which i have develeoped using asp.net , Sql server, C#, ado.net and bootstrap5."
         },
         {
             id:3,
             title:"Project MCQ",
             img:"Assets/ProjectMCQFullPage.jpeg",
             address:"https://github.com/Akshat4756/Project_MCQ",
-            description:"This web application is built using Asp.net, Ado.net and uses Sql server as database. I created this project in the process of learning asp.net"
+            description:"This web application is built using Asp.net, Ado.net and uses Sql server as database. "
         },
+        {
+            id:4,
+            title:"Online Food App",
+            img:"Assets/FullScreenShot.jpeg",
+            address:"https://github.com/Akshat4756/Online_Food_Application",
+            description:"This web application is built using Asp.net core, EF core and uses Sql server as database. "
+        }
         // {
         //     id:4,
         //     title:"Dummy 4",

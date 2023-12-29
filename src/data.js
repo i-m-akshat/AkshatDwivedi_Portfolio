@@ -51,15 +51,6 @@ export const Design=[
         id:5,
         title:"Online Library Management",
         img:"Assets/OnlineLibraryManagement.png"
-    },{
-        id:6,
-        title:"Calculator",
-        img:"Assets/Calculator.png"
-    },
-    {
-        id:7,
-        title:"Image Slider Application",
-        img:"Assets/ImageSlider.png"
     }
 ];
 export const MobileApp=[

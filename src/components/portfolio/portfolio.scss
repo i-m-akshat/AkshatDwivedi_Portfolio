@@ -5,7 +5,7 @@
     flex-direction: column;
     align-items: center;
     h1{
-        font-size: 50px;
+        font-size: 45px;
         @include mobile{
             font-size: 20px;
         }
@@ -22,7 +22,7 @@
             align-items: center;
         }
         li{
-            font-size: 14px;
+            font-size: 13px;
             margin-right: 50px;
             padding: 7px;
             border-radius: 10px;
